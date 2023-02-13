@@ -1,11 +1,11 @@
  body{
-  background-color: #080808;
-  color: #fff;
+  background-color: #FFF;
+  color: #080808
  }
 
  #container{
   padding:10px 10%;
-  background-color: rgb(133, 73, 73);
+  background-color: #A491D3;
 
  }
 
@@ -23,7 +23,7 @@
 
  }
  nav ul li a{
-  color:#fff;
+  color:#080808;
   text-decoration: none;
   font-size: 15px;
   position: relative;
@@ -59,7 +59,7 @@
   width:60%;
   margin-left:25%;
   margin-top:60px;
-  background-color: rgb(133, 73, 73);
+  background-color: #A491D3;
   border-radius: 20px;
   padding:10px
  }
