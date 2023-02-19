@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio-Jyoti Baisoya</title>
     <link rel="stylesheet" href="./index.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/7bf8bfad15.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="container">
-        <nav id="nav-menu">
-            <img class="logo" src=""/>
+    <div id="container" >
+        <nav id="nav-menu" >
+            <h1>Jyoti Baisoya</h1>
             <ul>
-                <li id="home"><a href="">HOME</a></li>
-                <li id="about" class="about-section"><a href="">ABOUT</a></li>
-                <li id="skills"><a href="">SKILL</a></li>
-                <li id="projects"><a href="">PROJECTS</a></li>
+                <li id="home"><a href="#home-part">HOME</a></li>
+                <li id="about" class="about-section"><a href="#about-part">ABOUT</a></li>
+                <li id="skills"><a href="#skill-part">SKILL</a></li>
+                <li id="projects"><a href="#project-part">PROJECTS</a></li>
                 <li id="contact"><a href="">CONTACT</a></li>
+                <li id="resume"><a class="resume-link-1" target="_blank" href="./resume/Jyoti-Baisoya-Resume (5).pdf" download><button id="resume-button-1">RESUME</button></a></li>
             </ul>
         </nav>
     </div>
@@ -25,17 +28,19 @@
         <div>
             <h1 id="user-detail-name">Hii, </span>I am Jyoti Baisoya</h1>
             <p id="user-detail-intro">A full Stack web developer</p>
+            <a class="resume-link-2" href="./resume/Jyoti-Baisoya-Resume (5).pdf" download="./resume/Jyoti-Baisoya-Resume (5).pdf"> <button id="resume-button-2">Download CV</button></a>
+           
         </div>
         <div id="pp">
-           <img src="./images/profile_photo.jpg"/>
+           <img class="home-img" src="./images/profile_photo.jpg"/>
         </div>
 
     </div>
     
-    <div class="nav-link-about">
-            <h2>About Me</h2>
-            <p>A passionate aspiring web-developer.Developing websites using HTML, CSS, Javascript, Node.js, Express.js,
-               MongoDB.Always ready to learn new things.Looking forward for new opportunities.
+    <div  id="about-part"class="nav-link about">
+            <h2 class="sub-title">About Me</h2>
+            <p>A passionate aspiring web-developer. Developing websites using HTML, CSS, Javascript, Node.js, Express.js,
+               MongoDB. Always ready to learn new things. Looking forward for new opportunities.
             </p>
             <h3>Education</h3>
             <ul>
@@ -49,6 +54,121 @@
                 </li>
             </ul>
             <p></p>
+    </div>
+    <div id="skill-part" class="nav-link skills">
+              <h1 class="sub-title">Skills</h1>
+            <div id="inside-skill">
+                <div> <img class="skill-card-img"src="./images/html.png"/>
+                    <h4 class="skill-card-name">HTML</h4>
+                </div>
+                <div>     <img class="skill-card-img" src="./images/javascript-39395.png"/>
+                    <h4  class="skill-card-name">Javascript</h4>
+                </div>
+                <div> <img class="skill-card-img" src="./images/css.png"/>
+                <h4 class="skill-card-name">CSS</h4></div>
+                <div><img  class="skill-card-img"src="./images/mongodb.png"/>
+                <h4 class="skill-card-name">MongoDB</h4></div>
+                <div><img class="skill-card-img" src="./images/express.png"/>
+                <h4 class="skill-card-name">Express</h4></div>
+                <div><img class="skill-card-img" src="./images/node.png"/>
+                <h4 class="skill-card-name">Node Js</h4></div>
+                <div> <img class="skill-card-img" src="./images/github.png"/>
+                <h4 class="skill-card-name">Github</h4></div>
+           </div>
+    </div>
+
+    <div id="project-part" class="nav-link project">
+        <h1 class="sub-title">My Projects</h1>
+       <div id="pproject">
+        <div class="pp project-card">
+            <img src="./images/backpackers.com.png"/>
+            <h4 class="project-title">Holiday-Booking System</h4>
+            <p class="project-description">It is a web service for booking online airplane tickets
+                and hotels<br>
+              <b class="project-tech-stack"> Used Tech Stacks</b>
+              : HTML | CSS | JavaScript</p>
+            <div>
+                <a class="project-github-link" href="https://github.com/Dibyendu091/ragged-tank-492" target="_blank"> <button><i class="fa-sharp fa-solid fa-code"></i>  <b>Code</b></button></a>
+               <a  class="project-deployed-link" href="" target="_blank"><button><b>Live</b>   </button></a>
+                
+            </div>
+        </div>
+        <div class="pp project-card"> <img src="./images/nanhemunhe.com.png"/>
+            <h4 class="project-title">E-Commerce Website</h4>
+            <p class="project-description">It is a e -commerce website for new-born babies
+                equipment's and clothes etc.<br>
+                <b class="project-tech-stack">Used Tech Stacks</b>:HTML | CSS | JavaScript |Node | Express |
+                MongoDB
+                
+
+                </p>
+            <div>
+                <a  class="project-github-link" href="https://github.com/JyotiBaisoya/spiky-crook-9700" target="_blank"><button><i class="fa-sharp fa-solid fa-code"></i>   <b>Code</b></button></a>
+                <a class="project-deployed-link" href="https://glowing-phoenix-3b89ec.netlify.app" target="_blank"><button><b>Live</b>  </button></a>
+                
+            </div></div>
+        <div class="pp project-card"> <img src="./images/shopifox.com.png"/>
+            <h4 class="project-title">E-Commerce Website</h4>
+            <p class="project-description">It is a e -commerce website from where you can buy new clothes
+                <br>
+                <b class="project-tech-stack">Used Tech Stacks</b>:HTML | CSS |Javascript 
+                </p>
+            <div>
+                <a  class="project-github-link" href="https://github.com/JyotiBaisoya/clean-science-9624" target="_blank"><button><i class="fa-sharp fa-solid fa-code"></i>    <b>Code</b></button></a>
+                <a class="project-deployed-link" href="https://cozy-bublanina-dda44e.netlify.app" target="_blank"><button>
+                    
+                    <b>Live</b>
+                    
+                </button></a>
+                
+            </div></div>
+       </div>
+       
+    </div>
+    <div id="github">
+       
+       <div id="top-github">
+        <h1>My Github Activity</h1>
+        <div id="github-calendar">
+            <img class="react-actitvity-calendar" src="./images/github calender.png"/>
+        </div>
+        
+    </div>
+    <div id="github-rest">
+        <div id="github-strak-stats" class="git">
+            <img src="./images/github streaks.png"/>
+        </div>
+        <div id="github-stats-card" class="git">
+            <img src="./images/github stats card.png"/>
+        </div>
+        <div id="github-top-langs" class="git">
+            <img src="./images/most used languages.png"/>
+        </div>
+       </div>
+    </div>
+
+    <div id="contact-part" class="nav-link contact">
+        <h1 class="sub-title">Contact Me At</h1>
+        <div id="inside-contact">
+           
+            <div id="contact-left">
+                <p id="contact-email"><i class="fa-sharp fa-solid fa-envelope"></i>  jyotibaisoya2508@gmail.com</p>
+                <p id="contact-phone"><i class="fa-solid fa-phone"></i>  9310473577</p>
+                <p id="contact-linkedin"><a href="https://www.linkedin.com/in/jyoti-baisoya-569502263/" target="_blank"><i class="fa-brands fa-linkedin"></i>  Jyoti Baisoya</a></p>
+                <p id="contact-github"><a href="https://github.com/JyotiBaisoya" target="_blank"> <i class="fa-brands fa-github"></i>   JyotiBaisoya</a></p>
+            </div>
+            <div id="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required/>
+                    <input type="email" email="email" placeholder="Your Email" required/>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn" type="submit">Submit</button>
+                </form>
+            </div>
+           
+            
+        </div>
+
     </div>
 </body>
 </html>
