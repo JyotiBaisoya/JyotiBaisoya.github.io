@@ -8,11 +8,7 @@
     <link rel="stylesheet" href="./index.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/7bf8bfad15.js" crossorigin="anonymous"></script>
-    <link
-       rel="stylesheet"
-        href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-    />
-    <!-- github css -->
+
   
 </head>
 <body>
@@ -161,22 +157,8 @@
         <div id="github-calendar" class="calendar">
             
         </div>
-        <script
-        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-      </script>
-      <script>
-          GitHubCalendar(".calendar", "JyotiBaisoya");
+        
       
-          // or enable responsive functionality:
-          GitHubCalendar(".calendar", "JyotiBaisoya", { responsive: true });
-      
-          // Use a proxy
-          GitHubCalendar(".calendar", "JyotiBaisoya", {
-             proxy (JyotiBaisoya) {
-               return fetch(`https://your-proxy.com/github?user=${JyotiBaisoya}`)
-             }
-          }).then(r => r.text())
-      </script>
         
     </div>
     <div id="github-rest">
