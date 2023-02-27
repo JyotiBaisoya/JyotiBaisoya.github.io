@@ -108,7 +108,7 @@
     width:90px;
     height:60px;
     border-radius:4px;
-
+    background-color: #A491D3;
  }
 
  #project-part{
@@ -271,6 +271,12 @@ form .btn{
   cursor:pointer
 }
 
+.git{
+  margin:auto;
+  color:#FFF;
+  font-size: 20px;
+}
+
 .git img:hover{
    transform:scale(1.1)
 }
@@ -288,6 +294,11 @@ nav .fa-solid{
   #container{
    width:100%;
    
+  }
+
+  #home-part{
+    display:flex;
+    flex-direction:  column-reverse;
   }
   nav .fa-solid{
     display:block;

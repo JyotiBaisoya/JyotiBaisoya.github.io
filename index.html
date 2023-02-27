@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="./index.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/7bf8bfad15.js" crossorigin="anonymous"></script>
+    <link
+       rel="stylesheet"
+        href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+    <!-- github css -->
+  
 </head>
 <body>
     <div id="container" >
         <nav id="nav-menu" >
             <h1>Jyoti Baisoya</h1>
             <ul>
-                <li id="home"><a href="#">HOME</a></li>
-                <li id="about" class="about-section"><a href="#about-part">ABOUT</a></li>
-                <li id="skills"><a href="#skill-part">SKILL</a></li>
-                <li id="projects"><a href="#project-part">PROJECTS</a></li>
-                <li id="contact"><a href="">CONTACT</a></li>
+                <li id="home" class="nav-link.home"><a href="#">HOME</a></li>
+                <li id="about" class="nav-link.about"><a href="#about-part">ABOUT</a></li>
+                <li id="skills" class="nav-link.skills"><a href="#skill-part">SKILL</a></li>
+                <li id="projects" class="nav-link.project"><a href="#project-part">PROJECTS</a></li>
+                <li id="contact" class="nav-link.contact"><a href="#contact-part">CONTACT</a></li>
                 <li id="resume"><a class="resume-link-1" target="_blank" href="./resume/Jyoti-Baisoya-Resume (5).pdf" download><button id="resume-button-1">RESUME</button></a></li>
                 <i class="fa-solid fa-xmark"></i>
                
@@ -27,11 +33,17 @@
         </nav>
     </div>
 
-    <div id="home-part" class="nav-link home">
+    <div id="home-part" >
         <div>
             <h1 id="user-detail-name">Hii, </span>I am Jyoti Baisoya</h1>
             <p id="user-detail-intro">A full Stack web developer</p>
-            <a class="resume-link-2" href="./resume/Jyoti-Baisoya-Resume (5).pdf" download="pdf"> <button id="resume-button-2">Download CV</button></a>
+            <a class="resume-link-2"  href="./resume/Jyoti-Baisoya-Resume (5).pdf"download> <button id="resume-button-2">Download CV</button></a>
+            <script>
+                let btn = document.getElementById("resume-button-2")
+                btn.addEventListener("click",()=>{
+                    window.open("./resume/Jyoti-Baisoya-Resume (5).pdf","_blank")
+                })
+            </script>
            
         </div>
         <div id="pp">
@@ -40,8 +52,8 @@
 
     </div>
     
-    <div  id="about-part"class="nav-link about">
-            <h2 class="sub-title">About Me</h2>
+    <div  id="about-part">
+            <h2 class="sub-title" id="#about.about.section">About Me</h2>
             <p>A passionate aspiring web-developer. Developing websites using HTML, CSS, Javascript, Node.js, Express.js,
                MongoDB. Always ready to learn new things. Looking forward for new opportunities.
             </p>
@@ -58,9 +70,9 @@
             </ul>
             <p></p>
     </div>
-    <div id="skill-part skills" class="nav-link skills  ">
+    <div id="skill-part"   >
               <h1 class="sub-title">Skills</h1>
-            <div id="inside-skill">
+            <div id="inside-skill" class="nav-link skills  ">
                 <div class="skills-card"> <img class="skills-card-img"src="./images/html.png"/>
                     <h4 class="skills-card-name">HTML</h4>
                 </div>
@@ -80,7 +92,7 @@
            </div>
     </div>
 
-    <div id="project-part" class="nav-link project">
+    <div id="project-part" >
         <h1 class="sub-title">My Projects</h1>
        <div id="pproject">
         <div class="pp project-card">
@@ -146,25 +158,47 @@
        
        <div id="top-github">
         <h1>My Github Activity</h1>
-        <div id="github-calendar">
-            <img class="react-activity-calendar" src="./images/github calender.png"/>
+        <div id="github-calendar" class="calendar">
+            
         </div>
+        <script
+        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+      </script>
+      <script>
+          GitHubCalendar(".calendar", "JyotiBaisoya");
+      
+          // or enable responsive functionality:
+          GitHubCalendar(".calendar", "JyotiBaisoya", { responsive: true });
+      
+          // Use a proxy
+          GitHubCalendar(".calendar", "JyotiBaisoya", {
+             proxy (JyotiBaisoya) {
+               return fetch(`https://your-proxy.com/github?user=${JyotiBaisoya}`)
+             }
+          }).then(r => r.text())
+      </script>
         
     </div>
     <div id="github-rest">
+       
         <div id="github-streak-stats" class="git">
-            <img src="./images/github streaks.png"/>
+            <h4>Github-streak-stats</h4>
+           <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=JyotiBaisoya"/></a>
         </div>
         <div id="github-stats-card" class="git">
-            <img src="./images/github stats card.png"/>
+            <h4 >Github-stats</h4>
+            <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=JyotiBaisoya"/></a>
+            
         </div>
         <div id="github-top-langs" class="git">
-            <img src="./images/most used languages.png"/>
+            <h4>Github-readme-stats</h4>
+            <a href="https://github.com/anuraghazra/github-readme-stats">  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JyotiBaisoya"/></a>
+          
         </div>
        </div>
     </div>
 
-    <div id="contact-part" class="nav-link contact">
+    <div id="contact-part" >
         <h1 class="sub-title">Contact Me At</h1>
         <div id="inside-contact">
            
