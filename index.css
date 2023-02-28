@@ -55,7 +55,7 @@
  
  }
 
- #home-part{
+ #home{
   display: flex;
   justify-content: space-between;
   margin-top:200px;
@@ -70,7 +70,7 @@
   
  }
 
- #about-part{
+ #about{
   width:60%;
   margin:auto;
   margin-top:60px;
@@ -79,15 +79,15 @@
   padding:10px;
   color:#FFF;
  }
- #about-part h2{
+ #about h2{
   font-size: 40px;
  }
 
- #about-part ul li{
+ #about ul li{
   list-style-type: circle;
  }
 
- #skill-part{
+ .skill-part{
     width:80%;
     margin-left:10%;
     margin-top:60px;
@@ -111,7 +111,7 @@
     background-color: #A491D3;
  }
 
- #project-part{
+ #projects{
    background-color: #A491D3;
    border-radius: 20px;
    width:90%;
@@ -150,7 +150,7 @@
  .pp p{
   font-size:small
  }
-#contact-part{
+#contact{
    width:60%;
    margin:auto;
    margin-top:60px;
@@ -165,7 +165,7 @@
   
 }
 
-#contact-part div p a{
+#contact div p a{
    text-decoration: none;
    color: #fff;
 }
@@ -296,7 +296,7 @@ nav .fa-solid{
    
   }
 
-  #home-part{
+  #home{
     display:flex;
     flex-direction:  column-reverse;
   }
@@ -325,7 +325,7 @@ nav .fa-solid{
     margin:25px;
   }
 
-  #skill-part{
+  .skill-part{
     width:80%;
     margin-left:10%;
     margin-top:60px;
@@ -348,7 +348,7 @@ nav .fa-solid{
     border-radius:4px;
 
  }
- #project-part{
+ #projects{
   background-color: #A491D3;
   border-radius: 20px;
   margin-top:60px;
