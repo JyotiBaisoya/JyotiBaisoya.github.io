@@ -10,7 +10,7 @@
   background-color: #A491D3;
   position:fixed;
   top:0;
-  width:80%;
+  width:100%;
   margin-bottom: 50px;
   
  }
@@ -292,7 +292,7 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
   
   #container{
-   width:100%;
+   width:80%;
    
   }
 
@@ -305,24 +305,27 @@ nav .fa-solid{
     font-size:25px;
     padding:20px
   }
-  .fa-ellipsis-vertical{
-    display:block;
-    font-size:25px
-  }
+ 
 
   nav ul{
     background:#A491D3;
     position:fixed;
     top:0;
     right:-200px;
-    width:200px;
+    width:150px;
     height:100vh;
     padding-top: 50px;
+    z-index:2
   }
-
   nav ul li{
     display:block;
-    margin:25px;
+    margin:25px
+  }
+  nav ul .fa-solid{
+    position:absolute;
+    top:25px;
+    left:25px;
+    cursor:pointer
   }
 
   .skill-part{
