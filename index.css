@@ -4,6 +4,7 @@
   font-family:"Roboto";
  }
 
+ 
 
  #container{
   
@@ -55,6 +56,11 @@
   bottom:-6px;
  
  }
+ nav .fa-solid{
+  display:none
+}
+
+ /* nav css ends here */
 
  #home{
   display: flex;
@@ -63,13 +69,17 @@
   margin-left:20%;
   margin-right:10%
  }
+ #resume-button-2{
+  background-color: #A491D3;
+  border-radius: 10px;
+  padding:10px;
+  border: none;
+  cursor:pointer
+}
 
- #pp img{
-  border-radius: 60%;
-  width:60%
-  
-  
- }
+
+ /* home-css ends here */
+
 
  #about{
   width:60%;
@@ -88,9 +98,11 @@
   list-style-type: circle;
  }
 
+ /* about-css ends here */
  .skill-part{
     width:80%;
-    margin-left:10%;
+    margin:auto;
+    /* margin-left:10%; */
     margin-top:60px;
     background-color: #A491D3;
     border-radius: 20px;
@@ -112,6 +124,8 @@
     background-color: #A491D3;
  }
 
+ /* skill-css ends here */
+
  #projects{
    background-color: #A491D3;
    border-radius: 20px;
@@ -129,6 +143,13 @@
   
  
  }
+ #pp img{
+  border-radius: 60%;
+  width:60%
+  
+  
+ }
+
 
  .pp{
    width:80%;
@@ -151,6 +172,16 @@
  .pp p{
   font-size:small
  }
+ .pp:hover{
+  transform:translateY(-10px);
+  
+}
+.pp img:hover{
+  transform:scale(1.1)
+}
+
+
+ /* project-css ends here */
 #contact{
    width:60%;
    margin:auto;
@@ -161,19 +192,13 @@
    color:#FFF
 }
 
-.pp:hover{
-  transform:translateY(-10px);
-  
-}
 
 #contact div p a{
    text-decoration: none;
    color: #fff;
 }
 
-.pp img:hover{
-  transform:scale(1.1)
-}
+
 
 .sub-title{
   font-size:30px;
@@ -217,6 +242,8 @@ form .btn{
   margin-left: 10px;
   border:none
 }
+
+/* contact-css ends here */
 
 #github-calendar{
   margin:20px;
@@ -264,13 +291,6 @@ form .btn{
   border-radius: 10px;
 }
 
-#resume-button-2{
-  background-color: #A491D3;
-  border-radius: 10px;
-  padding:10px;
-  border: none;
-  cursor:pointer
-}
 
 .git{
   margin:auto;
@@ -285,10 +305,8 @@ form .btn{
 #github-calendar img:hover{
   transform:scale(1.1)
 }
+/* github-css ends here */
 
-nav .fa-solid{
-  display:none
-}
 
 @media only screen and (max-width: 600px){
   
@@ -331,7 +349,7 @@ nav .fa-solid{
 
   .skill-part{
     width:80%;
-    margin-left:10%;
+    /* margin-left:10%; */
     margin-top:60px;
     background-color: #A491D3;
     border-radius: 20px;
@@ -356,7 +374,7 @@ nav .fa-solid{
   background-color: #A491D3;
   border-radius: 20px;
   margin-top:60px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   padding:10px 10px;
 }
 #pproject{
