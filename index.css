@@ -7,7 +7,7 @@
  
 
  #container{
-  
+  /* margin-left: 0%; */
   padding:10px 10%;
   background-color: #A491D3;
   position:fixed;
@@ -60,6 +60,7 @@
   display:none
 }
 
+
  /* nav css ends here */
 
  #home{
@@ -109,6 +110,13 @@
     padding:10px;
     color:#FFF
  }
+
+ 
+
+.skills-card:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
 
  #inside-skill{
     width:90%;
@@ -363,6 +371,7 @@ form .btn{
     grid-template-columns: repeat(2,1fr);
    padding:10px
  }
+ 
 
  #inside-skill div img{
     width:90px;
