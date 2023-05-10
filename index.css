@@ -9,7 +9,7 @@
  }
 
  #container{
-  /* margin-left: 0%; */
+  margin-left: 0%;
   padding:10px 10%;
   background-color: #A491D3;
   position:fixed;
@@ -19,6 +19,9 @@
   
  }
 
+ #resume-button-2 a{
+  color:#FFF
+}
 
  #nav-menu{
   
@@ -232,6 +235,11 @@
   width:100%
 }
 
+#resume-button-1{
+  background-color: #A491D3;
+  border-radius: 5px;
+  border:0px
+}
 form input,form textarea{
   width:100%;
   border:0;
@@ -476,7 +484,11 @@ form .btn{
   border-radius: 10px;
   padding:10px;
   border: none;
-  cursor:pointer
+  cursor:pointer;
+  
+}
+#resume-button-2 a{
+  color:#FFF
 }
 
 .git img:hover{
