@@ -1,5 +1,5 @@
  body{
-  background-color: #FFF;
+  background-color:  #bbe8e8 ;
   color: #080808;
   font-family:"Roboto";
  }
@@ -11,7 +11,7 @@
  #container{
   margin-left: 0%;
   padding:10px 10%;
-  background-color: #A491D3;
+  background-color:  #008080;
   position:fixed;
   top:0;
   width:80%;
@@ -76,7 +76,7 @@
   margin-right:10%
  }
  #resume-button-2{
-  background-color: #A491D3;
+  background-color:  #008080;
   border-radius: 10px;
   padding:10px;
   border: none;
@@ -91,7 +91,7 @@
   width:60%;
   margin:auto;
   margin-top:60px;
-  background-color: #A491D3;
+  background-color:  #008080;
   border-radius: 20px;
   padding:10px;
   color:#FFF;
@@ -110,7 +110,7 @@
     margin:auto;
     /* margin-left:10%; */
     margin-top:60px;
-    background-color: #A491D3;
+    background-color: #008080;
     border-radius: 20px;
     padding:10px;
     color:#FFF
@@ -134,13 +134,13 @@
     width:90px;
     height:60px;
     border-radius:4px;
-    background-color: #A491D3;
+    background-color: #008080;
  }
 
  /* skill-css ends here */
 
  #projects{
-   background-color: #A491D3;
+   background-color: #008080;
    border-radius: 20px;
    width:90%;
    margin:auto;
@@ -199,7 +199,7 @@
    width:60%;
    margin:auto;
    margin-top:60px;
-   background-color: #A491D3;
+   background-color: #008080;
    border-radius: 20px;
    padding:15px;
    color:#FFF
@@ -236,7 +236,7 @@
 }
 
 #resume-button-1{
-  background-color: #A491D3;
+  background-color: #008080;
   border-radius: 5px;
   border:0px
 }
@@ -265,7 +265,7 @@ form .btn{
 
 #github-calendar{
   margin:20px;
-  background-color: #A491D3;
+  background-color: #008080;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -280,7 +280,7 @@ form .btn{
 
 #top-github{
   margin:20px;
-  background-color: #A491D3;
+  background-color: #008080;
   border-radius: 20px;
   margin:30px;
   padding:10px;
@@ -290,7 +290,7 @@ form .btn{
 #github-rest{
   width:100%;
   margin-top: 40px;
-  background-color: #A491D3;
+  background-color: #008080;
   display:grid;
   grid-template-columns: repeat(2,1fr);
   gap:auto;
@@ -346,7 +346,7 @@ form .btn{
  
 
   nav ul{
-    background:#A491D3;
+    background:#008080;
     position:fixed;
     top:0;
     right:-200px;
@@ -370,7 +370,7 @@ form .btn{
     width:80%;
     /* margin-left:10%; */
     margin-top:60px;
-    background-color: #A491D3;
+    background-color: #008080;
     border-radius: 20px;
     padding:10px;
     color:#FFF
@@ -391,7 +391,7 @@ form .btn{
 
  }
  #projects{
-  background-color: #A491D3;
+  background-color: #008080;
   border-radius: 20px;
   margin-top:60px;
   /* margin-left: 20px; */
@@ -436,7 +436,7 @@ form .btn{
 }
 #github-calendar{
   margin:20px;
-  background-color: #A491D3;
+  background-color: #008080;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -451,7 +451,7 @@ form .btn{
 
 #top-github{
   margin:20px;
-  background-color: #A491D3;
+  background-color: #008080;
   border-radius: 20px;
   margin:30px;
   padding:10px;
@@ -461,7 +461,7 @@ form .btn{
 #github-rest{
   width:100%;
   margin-top: 40px;
-  background-color: #A491D3;
+  background-color: #008080;
   display:grid;
   grid-template-columns: repeat(1,1fr);
   gap:auto;
@@ -481,7 +481,7 @@ form .btn{
 }
 
 #resume-button-2{
-  background-color: #A491D3;
+  background-color: #008080;
   border-radius: 10px;
   padding:10px;
   border: none;
